@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Star Wars Digital Archive</title>
+  <link rel="icon" type="image/gif" href="https://icons.iconarchive.com/icons/artua/star-wars/128/Death-Star-icon.png">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.cdnfonts.com/css/star-wars" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <script src="https://kit.fontawesome.com/9ef4db385e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header>
+    <img class="logo-img" src="https://miukimiu.github.io/star-wars-random-quotes/images/Star_Wars_Logo.svg" alt="star wars logo">
+    <p class="logo-title">DIGITAL ARCHIVE</p>
+    <div class="wide-screen-container">
+      <img id="home-icon" class="home-icon" src="https://icons.iconarchive.com/icons/artua/star-wars/128/Death-Star-icon.png" title="Home" alt="Death-Star-icon">
+      <div class="toggle-container" id="toggle-container">
+        <div class="toggle-icon" id="toggle-icon">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+      <div class="search-container">
+        <div class="search-field">
+          <input type="text" id="search-input" class="search-input" placeholder="Search">
+          <span class="material-icons">
+            search
+          </span>
+        </div>
+      </div>
+    </div>
+    <ul>
+      <li id="people" data-key="characters">CHARACTERS</li>
+      <li id="species" data-key="species">SPECIES</li>
+      <li id="starships" data-key="starships">STARSHIPS</li>
+      <li id="vehicles" data-key="vehicles">VEHICLES</li>
+      <li id="favorites" data-key="favorites">FAVORITES</li>
+    </ul>
+  </header>
+  <main>
+    <div id="toggle-navigation" class="toggle-navigation">
+      <ul id="toggle-navigation-list">
+        <li id="nav-people" data-key="characters" class="list-item">CHARACTERS</li>
+        <li id="nav-species" data-key="species" class="list-item">SPECIES</li>
+        <li id="nav-starships" data-key="starships" class="list-item">STARSHIPS</li>
+        <li id="nav-vehicles" data-key="vehicles" class="list-item">VEHICLES</li>
+        <li id="nav-favorites" data-key="favorites" class="list-item">FAVORITES</li>
+      </ul>
+    </div>
+    <section class="collage-container" id="collage-container">
+      <img class="collage-img" src="https://wallpapercave.com/wp/wp5876519.jpg" alt="A photo collage of Star Wars universe with caracters and ships" />
+    </section>
+    <section class="collection-container-hidden" id="collection-container">
+
+    </section>
+    <button id="goToTopButton"><i class="fas fa-angle-double-up"></i></button>
+  </main>
+  <footer>
+    <p>DESIGNED AND DEVELOPED BY <span class="name">ERHAN KORAL</span> <i class="fa fa-creative-commons"></i><i class='fab fa-creative-commons-by'></i><i class='fab fa-creative-commons-nc'></i> 2023</p>
+    <p>Star Wars and all associated names and/or images are copyright <span>Lucasfilm Ltd.</span> Images were collected from <a href="https://www.starwars.com/databank">starwars.com</a> in terms of "Fair Use"</p>
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+
+</html>
